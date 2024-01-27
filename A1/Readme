@@ -11,5 +11,5 @@ bash interface.sh C <path/to/raw/input/dataset.dat> <path/to/output/compressed/d
 
 Decompression:
 ```
-bash interface.sh D <path/to/compressed_dataset.dat> <path/to/reconstructed.dat>
+bash interface.sh D <path/to/compressed/dataset> <path/to/output/decompressed/dataset.dat>
 ```
