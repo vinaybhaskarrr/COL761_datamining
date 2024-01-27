@@ -484,7 +484,7 @@ int frequentTree(double targetPercentile,string& inputFile,  string& outputFile,
 signed main(int32_t argc, char* argv[]) {
     std::string inputSetName = argv[1];
     std::string finalOutputName = argv[2];
-    int iterations = 12;
+    int iterations = 14;
     std::vector<std::string> compressedFileNames = {"cone.dat", "ctwo.dat"};
 
     auto startTime = std::chrono::high_resolution_clock::now();
