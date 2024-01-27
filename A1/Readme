@@ -6,7 +6,7 @@ bash compile.sh
 
 Compression:
 ```
-bash interface.sh C <path/to/dataset.dat> <path/to/output.dat>
+bash interface.sh C <path/to/raw/input/dataset.dat> <path/to/output/compressed/dataset.dat>
 ```
 
 Decompression:
