@@ -1,0 +1,39 @@
+source compile.sh
+"to load modules"
+
+bash interface.sh 1 
+"runs code for question1 and the final plot will be saved as Q1.png"
+
+bash interface.sh 2 c <path/to/dataset>
+"above command runs code for part c of Question2 and generates plot the average running time of 5-NN query
+with standard deviation as error bars for each index structure and sequential scan
+against dimension -it will be saved as Runtime.png.
+And also generates  plot accuracy (Jaccard) against dimension for LSH as jaccard_score.png."
+
+bash interface.sh 2 d <path/to/dataset>
+"above command runs code for part d of Question2 and generates Plot the k-NN accuracy (Jaccard) of LSH against k (x-axis) for the following values
+of k: 1, 5, 10, 50, 100, and 500 as dimension2.png,dimension4.png,dimension10.png,dimension20.png and all 4 will be there in combined.png"
+
+
+
+For Running Mtree
+
+python3 Mtree.py <path/to/datset> 
+"It saves the output image in Mtree.png"
+
+For Running KDTree
+
+python3 KDTree.py <path/to/datset> 
+"It saves the output image in KDTree.png"
+
+For Running LSH
+
+python3 LSH.py <path/to/datset> 
+"It saves the output image in LSH.png"
+
+
+
+
+
+
+
