@@ -12,7 +12,7 @@ And also generates  plot accuracy (Jaccard) against dimension for LSH as jaccard
 
 bash interface.sh 2 d <path/to/dataset>
 "above command runs code for part d of Question2 and generates Plot the k-NN accuracy (Jaccard) of LSH against k (x-axis) for the following values
-of k: 1, 5, 10, 50, 100, and 500 as dimension2.png,dimension4.png,dimension10.png,dimension20.png and all 4 will be there in combined.png"
+of k: 1, 5, 10, 50, 100, and 500 as dimension2.png,dimension4.png,dimension10.png,dimension20.png and all 4 will be there in Alldimensions.png"
 
 
 
