@@ -31,6 +31,9 @@ For Running LSH
 python3 LSH.py <path/to/datset> 
 "It saves the output image in LSH.png"
 
+python3 Indexing.py <path/to/dataset>
+"It runs the input data on LSH,MTree,KDTree and saves the comparision on Combined.png"
+
 
 
 
