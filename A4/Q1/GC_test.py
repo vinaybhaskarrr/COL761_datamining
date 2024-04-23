@@ -1,5 +1,6 @@
 import sys
 import torch
+import numpy as np
 from tqdm.auto import tqdm
 import torch
 from sklearn.metrics import roc_curve, auc
@@ -32,6 +33,9 @@ if dataset[0].x.ndimension() != 1:
     num_features = len(dataset[0].x[0])
 else:
     num_features = 1
+    for data in dataset:
+        data.x = data.x[:, np.newaxis]
+
 
 
 # train_loader = DataLoader(train_dataset, batch_size=64, shuffle=True)
